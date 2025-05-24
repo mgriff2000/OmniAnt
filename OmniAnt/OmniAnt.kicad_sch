@@ -127,6 +127,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -353,15 +530,73 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 85.09 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a64337e-e23f-4dd3-b856-53d86271785b")
+	)
+	(junction
+		(at 92.71 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "925900cd-f46b-4185-bbf1-c720fc9172c8")
+	)
+	(junction
+		(at 110.49 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f371414c-9578-4322-9379-d94dfb2d7009")
+	)
 	(wire
 		(pts
-			(xy 110.49 92.71) (xy 110.49 100.33)
+			(xy 92.71 91.44) (xy 92.71 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63344b11-57ac-4e60-b03a-33cc515c6b98")
+		(uuid "3a276def-c3cd-4ea4-bb4f-34b4901372ad")
+	)
+	(wire
+		(pts
+			(xy 85.09 82.55) (xy 92.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64565792-8731-47a1-b50a-6810f2aa9e1e")
+	)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0e9db8-108c-471c-9b8e-3386d0338804")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 110.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882f2949-b2d7-431f-8320-52f0ec43d510")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 92.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a787050a-4e61-4416-a471-05dffdfd72fa")
 	)
 	(wire
 		(pts
@@ -371,27 +606,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "64a1ca6d-eb09-4533-abda-421595789034")
+		(uuid "bdae0e67-201f-48d7-9570-dd1023e3c196")
 	)
 	(wire
 		(pts
-			(xy 95.25 82.55) (xy 110.49 82.55)
+			(xy 92.71 82.55) (xy 110.49 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7afca002-5916-4e31-a356-9fb4237c6eaf")
+		(uuid "e302a40a-ebc0-4dd1-b634-fe2ef9e95b40")
 	)
 	(wire
 		(pts
-			(xy 110.49 100.33) (xy 111.76 100.33)
+			(xy 110.49 92.71) (xy 110.49 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81f2cc92-23fd-4fa0-8452-5497d57880cc")
+		(uuid "e553050f-0d4b-4e57-a4a9-7551b51dafd6")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -465,16 +700,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 90.17 82.55 0)
+		(at 80.01 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72fc1693-df3a-46e6-ad96-b5deb4569e8f")
 		(property "Reference" "J1"
-			(at 90.805 77.47 0)
+			(at 80.645 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +716,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 90.805 80.01 0)
+			(at 79.502 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,7 +724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 82.55 0)
+			(at 80.01 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -499,7 +733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 82.55 0)
+			(at 80.01 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,7 +742,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 90.17 82.55 0)
+			(at 80.01 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,8 +763,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 92.71 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f19ec3-bfd2-4b6e-a8d6-e0e3a3aeca36")
+		(property "Reference" "BT1"
+			(at 96.52 85.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 96.52 88.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79a062a0-8c89-40f8-aa82-ced89b69d860")
+		)
+		(pin "1"
+			(uuid "adbd562e-bd37-431d-bb43-bca27c7e0469")
+		)
+		(instances
+			(project ""
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 111.76 100.33 0)
+		(at 110.49 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -539,7 +843,7 @@
 		(fields_autoplaced yes)
 		(uuid "b02b9753-bba6-40eb-8a17-d75d52d9188e")
 		(property "Reference" "#PWR01"
-			(at 111.76 106.68 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 105.41 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 100.33 0)
+			(at 110.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 100.33 0)
+			(at 110.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 100.33 0)
+			(at 110.49 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
