@@ -3085,12 +3085,6 @@
 		(uuid "3f5130e5-e21c-4123-9c92-204554da0299")
 	)
 	(junction
-		(at 81.28 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "462197c7-6c34-4095-a9e5-54cd059b20dc")
-	)
-	(junction
 		(at 176.53 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3333,16 +3327,6 @@
 			(type default)
 		)
 		(uuid "058a47b0-7842-4b28-b426-73b6622c3e2b")
-	)
-	(wire
-		(pts
-			(xy 81.28 43.18) (xy 81.28 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "060ab940-7bac-48cf-a2cd-84aa4b5f39b4")
 	)
 	(wire
 		(pts
@@ -3623,6 +3607,16 @@
 			(type default)
 		)
 		(uuid "3c80e02f-b317-4df4-8f3b-a9441232b980")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d490e8e-dd5f-4f46-b4bc-9ebee21b1e60")
 	)
 	(wire
 		(pts
@@ -4586,6 +4580,17 @@
 			(justify right)
 		)
 		(uuid "c9f575f2-64d4-4fa2-8892-c68213a01940")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 80.01 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9769080-9dae-4d79-84bd-1faeaf64e29c")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -6646,10 +6651,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b0c06e2-88b7-41b6-a3d2-2fffd618d8d7")
+			(uuid "1b0c06e2-88b7-41b6-a3d2-2fffd618d8d8")
 		)
 		(pin "2"
-			(uuid "5930bb4a-ea08-4b31-ae46-ac24955fa045")
+			(uuid "5930bb4a-ea08-4b31-ae46-ac24955fa046")
 		)
 		(instances
 			(project ""
@@ -6842,10 +6847,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516885")
+			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516886")
 		)
 		(pin "2"
-			(uuid "c5ffb2da-1154-4e31-bd38-6d270632353d")
+			(uuid "c5ffb2da-1154-4e31-bd38-6d270632353e")
 		)
 		(instances
 			(project ""
@@ -7365,10 +7370,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516885")
+			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516887")
 		)
 		(pin "2"
-			(uuid "c5ffb2da-1154-4e31-bd38-6d270632353d")
+			(uuid "c5ffb2da-1154-4e31-bd38-6d270632353f")
 		)
 		(instances
 			(project ""
@@ -7561,10 +7566,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516885")
+			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516888")
 		)
 		(pin "2"
-			(uuid "c5ffb2da-1154-4e31-bd38-6d270632353d")
+			(uuid "c5ffb2da-1154-4e31-bd38-6d2706323540")
 		)
 		(instances
 			(project ""
@@ -8188,10 +8193,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516885")
+			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516889")
 		)
 		(pin "2"
-			(uuid "c5ffb2da-1154-4e31-bd38-6d270632353d")
+			(uuid "c5ffb2da-1154-4e31-bd38-6d2706323541")
 		)
 		(instances
 			(project ""
@@ -8384,10 +8389,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd179516885")
+			(uuid "bd7bc7b0-93b7-44c3-8d66-0fd17951688a")
 		)
 		(pin "2"
-			(uuid "c5ffb2da-1154-4e31-bd38-6d270632353d")
+			(uuid "c5ffb2da-1154-4e31-bd38-6d2706323542")
 		)
 		(instances
 			(project ""
