@@ -620,6 +620,14 @@
     [
       "ac1785e8-add2-4a0e-9914-0f0ef654cbea",
       "Motor2"
+    ],
+    [
+      "715d742c-13c6-4f25-8121-09fc2df5f196",
+      "Accelerometer1"
+    ],
+    [
+      "495e6d06-414b-4f15-a3c9-6bced6a7e482",
+      "Accelerometer2"
     ]
   ],
   "text_variables": {}

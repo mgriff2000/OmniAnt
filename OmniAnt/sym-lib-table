@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "CustomParts")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/CustomParts.kicad_sym")(options "")(descr ""))
   (lib (name "NTMFS4C324NT1G")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/NTMFS4C324NT1G.kicad_sym")(options "")(descr ""))
+  (lib (name "H3LIS331DL")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/H3LIS331DL.kicad_sym")(options "")(descr ""))
 )
