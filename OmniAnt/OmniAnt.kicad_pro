@@ -615,7 +615,11 @@
     ],
     [
       "e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3",
-      "MotorController_MCF8329A"
+      "Motor1"
+    ],
+    [
+      "ac1785e8-add2-4a0e-9914-0f0ef654cbea",
+      "Motor2"
     ]
   ],
   "text_variables": {}
