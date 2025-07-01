@@ -8759,7 +8759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MCF8329A1IREER"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/mcf8329a.pdf?ts=1751115911442"
 			(at 82.55 30.48 0)
 			(effects
 				(font

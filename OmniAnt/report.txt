@@ -1,0 +1,118 @@
+Info: Processing symbol 'AC1:Footprints:LIS3DHTR'.
+Info: Processing symbol 'AC2:Footprints:LIS3DHTR'.
+Info: Processing symbol 'C1:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C2:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C3:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C4:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C5:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C6:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C7:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C8:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C9:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C10:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C11:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C12:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C13:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C14:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C15:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C16:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C17:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C18:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C19:PCM_JLCPCB:C_0805'.
+Info: Processing symbol 'C20:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C21:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C22:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C23:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C24:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C25:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C26:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C27:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C28:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C29:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'C30:PCM_JLCPCB:C_0603'.
+Info: Processing symbol 'D1:PCM_JLCPCB:D_0805'.
+Info: Processing symbol 'D2:PCM_JLCPCB:D_SMAF'.
+Info: Processing symbol 'D3:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'D4:LED_THT:LED_D5.0mm-4_RGB'.
+Info: Processing symbol 'J1:Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical'.
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'J3:PCM_JLCPCB:TYPE-C-SMD_HX-TYPE-C-16PIN'.
+Info: Processing symbol 'J6:Footprints:AMASS_XT30PW-M'.
+Info: Processing symbol 'R15:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R16:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'J7:Footprints:AMASS_XT30PW-M'.
+Info: Processing symbol 'Q12:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'R17:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'J8:Footprints:AMASS_XT30PW-M'.
+Info: Processing symbol 'R18:Resistor_SMD:R_1206_3216Metric'.
+Info: Processing symbol 'U1:RF_Module:ESP32-S3-WROOM-1'.
+Info: Processing symbol 'J9:Footprints:AMASS_XT30PW-M'.
+Info: Processing symbol 'U2:Package_DFN_QFN:Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm_ThermalVia'.
+Info: Processing symbol 'U3:Footprints:REE0036A-MFG'.
+Info: Processing symbol 'Q1:Footprints:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'Q2:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'U4:Package_TO_SOT_SMD:SOT-666'.
+Info: Processing symbol 'Q3:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'U5:Footprints:REE0036A-MFG'.
+Info: Processing symbol 'Q4:NVMFS5C442NLWFAFT1G'.
+Info: Total warnings: 24, errors: 0.
+Info: Processing symbol 'Q5:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'Q6:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'Q7:Footprints:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'Q8:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'Q9:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'Q10:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'Q11:NVMFS5C442NLWFAFT1G'.
+Info: Processing symbol 'R1:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R2:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R3:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R4:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R5:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R6:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R7:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R8:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R9:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R10:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R11:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R12:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R13:PCM_JLCPCB:R_0402'.
+Info: Processing symbol 'R14:PCM_JLCPCB:R_0402'.
+Change Q3 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q12 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q5 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q9 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q6 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q10 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q8 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q2 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q4 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+Change Q11 footprint from 'Footprints:NVMFS5C442NLWFAFT1G' to 'NVMFS5C442NLWFAFT1G'.
+
+
+Warning: No net found for component J8 pad S2 (no pin S2 in symbol).
+Warning: No net found for component J9 pad S1 (no pin S1 in symbol).
+Warning: No net found for component J9 pad S2 (no pin S2 in symbol).
+Warning: No net found for component U3 pad 44 (no pin 44 in symbol).
+Warning: No net found for component U3 pad 41 (no pin 41 in symbol).
+Warning: No net found for component U3 pad 45 (no pin 45 in symbol).
+Warning: No net found for component U3 pad 39 (no pin 39 in symbol).
+Warning: No net found for component U3 pad 42 (no pin 42 in symbol).
+Warning: No net found for component U3 pad 38 (no pin 38 in symbol).
+Warning: No net found for component J6 pad S1 (no pin S1 in symbol).
+Warning: No net found for component U3 pad 43 (no pin 43 in symbol).
+Warning: No net found for component J6 pad S2 (no pin S2 in symbol).
+Warning: No net found for component J7 pad S1 (no pin S1 in symbol).
+Warning: No net found for component U5 pad 45 (no pin 45 in symbol).
+Warning: No net found for component U5 pad 44 (no pin 44 in symbol).
+Warning: No net found for component U5 pad 41 (no pin 41 in symbol).
+Warning: No net found for component U5 pad 39 (no pin 39 in symbol).
+Warning: No net found for component U5 pad 42 (no pin 42 in symbol).
+Warning: No net found for component U5 pad 38 (no pin 38 in symbol).
+Warning: No net found for component U5 pad 43 (no pin 43 in symbol).
+Warning: No net found for component U5 pad 40 (no pin 40 in symbol).
+Warning: No net found for component J7 pad S2 (no pin S2 in symbol).
+Warning: No net found for component J8 pad S1 (no pin S1 in symbol).
+Warning: No net found for component U3 pad 40 (no pin 40 in symbol).
+
+
+Info: Total warnings: 24, errors: 0.
