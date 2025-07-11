@@ -5,6 +5,119 @@
 	(uuid "a7dad936-5338-4fd0-a74d-c2440f8b0027")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CustomParts:MCF8329A1IREER"
 			(pin_names
 				(offset 0.254)
@@ -909,232 +1022,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MR30PW-FB:MR30PW-FB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MR30PW-FB"
-				(at 19.05 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Footprints:MR30PWFB"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/en/details/mr30pw-fb/dc-power-connectors/amass/"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Socket; DC supply; MR30; female; PIN: 3; on PCBs; THT; Colour: yellow"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "5.3"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Amass"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MR30PW-FB"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 19.05 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 19.05 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MR30PW-FB_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3371,6 +3258,18 @@
 		(uuid "79b633f1-5ded-4d22-a783-a55f0f7f5e9a")
 	)
 	(junction
+		(at 146.05 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e877b1d-1eb8-416e-8ff1-4ceef1ddc7f9")
+	)
+	(junction
+		(at 147.32 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8401c1f1-3d02-4905-aa2d-cc696353f84c")
+	)
+	(junction
 		(at 25.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3507,14 +3406,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffc681bb-7426-4059-93d5-62649e00cf3b")
-	)
-	(no_connect
-		(at 276.86 81.28)
-		(uuid "0566db23-251a-42f7-b75f-eed510517ed7")
-	)
-	(no_connect
-		(at 276.86 83.82)
-		(uuid "396cd735-9842-4c12-a0eb-4f88f8dc6645")
 	)
 	(no_connect
 		(at 81.28 68.58)
@@ -3837,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "319b0cea-ab58-43aa-9993-e4179b24f05b")
+	)
+	(wire
+		(pts
+			(xy 208.28 90.17) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ad0af2-b494-4ae0-9402-5c1fed888149")
 	)
 	(wire
 		(pts
@@ -4440,6 +4341,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 132.08) (xy 238.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f19844-64a8-4de4-a4dc-8f097e2e2153")
+	)
+	(wire
+		(pts
 			(xy 137.16 163.83) (xy 140.97 163.83)
 		)
 		(stroke
@@ -4537,6 +4448,16 @@
 			(type default)
 		)
 		(uuid "c6ce181f-912d-4bf3-bb8c-81602aa6f965")
+	)
+	(wire
+		(pts
+			(xy 146.05 132.08) (xy 238.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c863e47d-9de4-4391-95fc-384151f03832")
 	)
 	(wire
 		(pts
@@ -4757,6 +4678,16 @@
 			(type default)
 		)
 		(uuid "f9c8fecc-0440-4896-9d20-659b05b10f34")
+	)
+	(wire
+		(pts
+			(xy 147.32 90.17) (xy 208.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef0abad-f14a-42eb-9198-9e35739dc0e4")
 	)
 	(label "PhaseA"
 		(at 245.11 78.74 180)
@@ -4984,6 +4915,219 @@
 			(justify right)
 		)
 		(uuid "ea72d111-f573-4fef-9e26-67b038703933")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 259.08 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0104155e-ab23-4d60-8bc4-9a7f70d2694a")
+		(property "Reference" "J8"
+			(at 261.62 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 261.62 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0560001-16b3-4d1b-9afa-d64459f544b6")
+		)
+		(instances
+			(project ""
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 259.08 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02d7adc8-2404-4885-956f-447c9d94e8a2")
+		(property "Reference" "J10"
+			(at 261.62 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 261.62 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0560001-16b3-4d1b-9afa-d64459f544b6")
+		)
+		(instances
+			(project ""
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 259.08 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cffd8b2-df3e-4945-a4bd-9a371c91daf1")
+		(property "Reference" "J12"
+			(at 261.62 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 261.62 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0560001-16b3-4d1b-9afa-d64459f544b6")
+		)
+		(instances
+			(project ""
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99"
+					(reference "J13")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5768,159 +5912,6 @@
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MR30PW-FB:MR30PW-FB")
-		(at 254 83.82 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34f1ab47-aa5d-40ba-9a09-268ef6f7629e")
-		(property "Reference" "J8"
-			(at 265.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MR30PW-FB"
-			(at 265.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:MR30PWFB"
-			(at 273.05 -11.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/en/details/mr30pw-fb/dc-power-connectors/amass/"
-			(at 273.05 -111.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket; DC supply; MR30; female; PIN: 3; on PCBs; THT; Colour: yellow"
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.3"
-			(at 273.05 -311.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 273.05 -411.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MR30PW-FB"
-			(at 273.05 -511.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 273.05 -611.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 273.05 -711.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 273.05 -811.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 273.05 -911.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2165b92f-3603-41b5-b888-2f4b91712e8f")
-		)
-		(pin "5"
-			(uuid "5373c65d-86e3-48cf-a9df-de792bce36e4")
-		)
-		(pin "1"
-			(uuid "7cb988b6-2350-452a-b021-71569786d2f5")
-		)
-		(pin "4"
-			(uuid "af5c97b4-74be-44ba-94cc-bcbc01d78c7a")
-		)
-		(pin "3"
-			(uuid "e5daba4b-a8d4-4c64-85b6-adf963917aaa")
-		)
-		(instances
-			(project "OmniAnt"
-				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99"
-					(reference "J9")
-					(unit 1)
-				)
-				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3"
-					(reference "J8")
 					(unit 1)
 				)
 			)
