@@ -9191,7 +9191,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "5073d931-abcc-4566-8b1a-24d53c6ab1ae")
 		)
 		(pad "41" thru_hole circle
 			(at -2.2 1.06)
@@ -9204,7 +9204,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "a96e0b66-4f59-43e9-a7f2-2261df876df1")
 		)
 		(pad "41" thru_hole circle
 			(at -2.2 2.46)
@@ -9217,7 +9217,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "d3d074a8-b016-4f21-835c-31434bf53510")
 		)
 		(pad "41" thru_hole circle
 			(at -2.2 3.86)
@@ -9230,7 +9230,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "2f260e0c-229f-4dff-8875-76621f0cb198")
 		)
 		(pad "41" thru_hole circle
 			(at -1.5 1.76)
@@ -9243,7 +9243,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "ca280885-09ef-411a-af15-0a2542ff0b51")
 		)
 		(pad "41" smd rect
 			(at -1.5 2.46 270)
@@ -9254,7 +9254,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "5a188e7d-cd5a-4e48-99a5-f94598ef92cb")
 		)
 		(pad "41" thru_hole circle
 			(at -1.5 3.16)
@@ -9267,7 +9267,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "127f2c95-274a-4a99-bb09-e53b332def93")
 		)
 		(pad "41" thru_hole circle
 			(at -0.8 1.06)
@@ -9280,7 +9280,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "2044e1a2-4ea7-4e2f-ac39-ca8a25746683")
 		)
 		(pad "41" thru_hole circle
 			(at -0.8 2.46)
@@ -9293,7 +9293,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "310eeac1-d532-40aa-9261-2e59d32a1e64")
 		)
 		(pad "41" thru_hole circle
 			(at -0.8 3.86)
@@ -9306,7 +9306,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "715bb813-1358-47b0-afc6-6dec798176e6")
 		)
 		(pad "41" thru_hole circle
 			(at -0.1 1.76)
@@ -9319,7 +9319,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "3ba419fb-71c6-4a20-b538-37fa8c7a0248")
 		)
 		(pad "41" thru_hole circle
 			(at -0.1 3.16)
@@ -9332,7 +9332,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e986bcdd-c106-4331-b330-91ba6d1064f6")
+			(uuid "847ddd20-08a7-4008-81a5-85d2cc3bedcc")
 		)
 		(zone
 			(net 0)
@@ -13930,7 +13930,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "3ad4df17-a89f-459a-9e77-35888bf1dea5")
 		)
 		(pad "S1" thru_hole circle
 			(at -2 1)
@@ -13942,7 +13942,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "aa7dd881-d690-4a48-a151-0f4525dd3dcb")
 		)
 		(pad "S1" thru_hole circle
 			(at -2 3)
@@ -13954,7 +13954,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "08067833-6a4d-4861-b7b3-a423e2af8e65")
 		)
 		(pad "S1" smd roundrect
 			(at 0 2)
@@ -13965,7 +13965,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "9da41afc-503a-44e9-bfa1-5aa9a1d51dbd")
 		)
 		(pad "S1" thru_hole circle
 			(at 2 1)
@@ -13977,7 +13977,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "5aa24e4d-06a6-4fb6-bed0-63de2f869bfa")
 		)
 		(pad "S1" thru_hole circle
 			(at 2 3)
@@ -13989,7 +13989,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 90)
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "de762f84-cea8-45f3-9493-e3225b629ecd")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.33 -1.82)
@@ -14000,7 +14000,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "f35ed664-0a31-4f89-89c7-80ace81485fb")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.33 2.38)
@@ -14011,7 +14011,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "3e26c5fe-dfe4-4dbf-b813-7b015c75a34b")
+			(uuid "bd8651d3-1de0-4530-9a27-4b4cec5e3214")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/TYPE-C-SMD_HX-TYPE-C-16PIN.step"
@@ -19341,7 +19341,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "5ef579e2-29bf-4ccd-8a12-bc406fe1fe4b")
 		)
 		(pad "15" thru_hole circle
 			(at -0.95 0.95 180)
@@ -19353,7 +19353,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "0cc5adc7-057b-41cc-9b23-a284c69c16d3")
 		)
 		(pad "15" thru_hole circle
 			(at 0 -1.9 180)
@@ -19365,7 +19365,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "82416744-a334-4046-ac76-1a811510bc9e")
 		)
 		(pad "15" thru_hole circle
 			(at 0 -0.95 180)
@@ -19377,7 +19377,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "8e384bae-0230-4e20-926b-27905d0ac16e")
 		)
 		(pad "15" thru_hole circle
 			(at 0 0 180)
@@ -19389,7 +19389,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "7c13fa22-1ff2-4922-85cc-1187f3f31936")
 		)
 		(pad "15" smd custom
 			(at 0 0 180)
@@ -19420,7 +19420,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "67bff91f-410f-4450-bb07-bdeec6b03d0c")
 		)
 		(pad "15" thru_hole circle
 			(at 0 0.95 180)
@@ -19432,7 +19432,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "c8be5146-f28c-48e2-a34a-f43d8a043fa9")
 		)
 		(pad "15" thru_hole circle
 			(at 0 1.9 180)
@@ -19444,7 +19444,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "7e5f095d-e959-4a74-8207-6076356d17e1")
 		)
 		(pad "15" thru_hole circle
 			(at 0.95 -0.95 180)
@@ -19456,7 +19456,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "06c90c8d-4252-40ca-b69e-67631a90bea4")
 		)
 		(pad "15" thru_hole circle
 			(at 0.95 0 180)
@@ -19468,7 +19468,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "cca3ffa6-2375-4170-97dd-8f39da2e541c")
 		)
 		(pad "15" thru_hole circle
 			(at 0.95 0.95 180)
@@ -19480,7 +19480,7 @@
 			(pinfunction "PGND")
 			(pintype "power_in")
 			(zone_connect 1)
-			(uuid "a1babda9-4df3-4097-b1b8-2406b3d2ab7d")
+			(uuid "a0520c97-8028-4afa-9544-686446d0024a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_B3QFN-14-1EP_5x5.5mm_P0.65mm.step"
@@ -36294,14 +36294,14 @@
 		(layer "User.1")
 		(uuid "fa4637c1-6967-4cf0-b8e6-161fa411a1cd")
 	)
-	(gr_text "TODO: \nAdd solder wire connections for the busbar wires. \nAdd mounting / locating holes for the motor. \nAdd boxes to represent the batteries. \n"
+	(gr_text "TODO: \nAdd mounting / locating holes for the motor. \nMake the gate traces 0.5mm\n"
 		(at 179.3 173.5 0)
 		(layer "Cmts.User")
 		(uuid "752f868f-5963-4aa5-87ce-8f57ed00b7db")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)

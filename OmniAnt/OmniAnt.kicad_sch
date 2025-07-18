@@ -5787,7 +5787,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\nAdd protection circuitry for the 3.3V rail. \nprotect for adding all of the optional circuity around the FETs. plus maybe tvs diodes. \n"
+	(text "TODO:\nAdd protection circuitry for the 3.3V rail. \nprotect for adding all of the optional circuity around the FETs. plus maybe tvs diodes. \nAdd C bulk of about 600uF per controller. \nAdd CHSD_LSS = 0.01uF to 1uF There will be three total. "
 		(exclude_from_sim yes)
 		(at 225.044 172.72 0)
 		(effects

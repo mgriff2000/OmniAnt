@@ -769,6 +769,14 @@
     [
       "26834c6c-f4a8-48a9-9b9e-c769f479a855",
       "Accelerometer2"
+    ],
+    [
+      "89a57391-4f8f-4442-8811-76b7ecce83de",
+      "MOSFET"
+    ],
+    [
+      "89a57391-4f8f-4442-8811-76b7ecce83de",
+      "MOSFET"
     ]
   ],
   "text_variables": {}
