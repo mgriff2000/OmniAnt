@@ -539,373 +539,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Diode-Packages:TVS-Bi, PSM712-LF-T7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PSM712-LF-T7"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "19V 13.3V 12V SOT-23 ESD and Surge Protection (TVS/ESD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C32677"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "82832"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.327USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Circuit Protection,TVS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "ProTek Devices"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "PSM712-LF-T7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Reverse Stand-Off Voltage (Vrwm)" "12V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Maximum Clamping Voltage" "19V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Breakdown Voltage" "13.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C32677"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TVS-Bi, PSM712-LF-T7_0_1"
-				(polyline
-					(pts
-						(xy -5.588 3.302) (xy -5.08 3.302) (xy -5.08 7.112) (xy -4.318 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 -6.858) (xy -5.08 -6.858) (xy -5.08 -3.048) (xy -4.318 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 6.604) (xy -5.08 5.08) (xy -2.54 3.302) (xy -2.54 6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -1.016 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.556) (xy -5.08 -5.08) (xy -2.54 -6.858) (xy -2.54 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -1.016 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 3.556) (xy 1.524 5.08) (xy -1.016 6.858) (xy -1.016 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -6.604) (xy 1.524 -5.08) (xy -1.016 -3.302) (xy -1.016 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 5.08) (xy 6.35 5.08) (xy 6.35 -5.08) (xy 1.524 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 6.858) (xy 1.524 6.858) (xy 1.524 3.048) (xy 0.762 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -3.302) (xy 1.524 -3.302) (xy 1.524 -7.112) (xy 0.762 -7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 5.08 0)
-					(length 3.81)
-					(name "A1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -5.08 0)
-					(length 3.81)
-					(name "A1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TVS-Bi, PSM712-LF-T7_1_1"
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 1.28)
-					(name "K"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Diodes:Schottky,1N5819WS"
 			(pin_numbers
 				(hide yes)
@@ -1114,6 +747,560 @@
 				)
 			)
 			(symbol "Schottky,1N5819WS_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ18CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMBJ18CA"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SMB"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_hongjiacheng-SMBJ18CA_C19077574.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20.55A 600W 29.2V 22.1V Bidirectional 18V SMB ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C19077574"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "2213"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.048USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "SMBJ18CA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS-Bi,SMBJ18CA_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -1.27 0) (xy 1.27 0) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS-Bi,SMBJ18CA_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Diodes:TVS-Bi,SMCJ13CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMCJ13CA"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SMC"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501071555_hongjiacheng-SMCJ13CA_C41411763.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "13V 21.5V 69.8A 1uA 1.5kW 15.9V Bidirectional TVS Dual channel -55°C~+150°C SMC ESD and Surge Protection (TVS/ESD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C41411763"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "4921"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.092USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "SMCJ13CA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "-55°C~+150°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "TVS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Peak Pulse Power Dissipation (Ppp)" "1.5kW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Number of Channels" "Dual channel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Clamping Voltage" "21.5V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Polarity" "Bidirectional"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Peak Pulse Current (Ipp)" "69.8A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage - Breakdown" "15.9V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Stand-Off Voltage (Vrwm)" "13V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "1uA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS-Bi,SMCJ13CA_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -1.27 0) (xy 1.27 0) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS-Bi,SMCJ13CA_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.81)
@@ -1965,6 +2152,12 @@
 		)
 	)
 	(junction
+		(at 165.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "090366c4-43fa-49b5-95d8-55acd6e8c266")
+	)
+	(junction
 		(at 134.62 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1981,12 +2174,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56429189-56f6-4916-afe6-db7de90fd412")
-	)
-	(junction
-		(at 149.86 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e03d639-03de-49d2-ab45-86051d6915e3")
 	)
 	(junction
 		(at 149.86 49.53)
@@ -2013,6 +2200,12 @@
 		(uuid "8240bdab-e2e7-4b1a-a702-2fd33d201b35")
 	)
 	(junction
+		(at 165.1 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d8fb1c6-1327-4a61-96ea-785b3999a0d3")
+	)
+	(junction
 		(at 149.86 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2037,12 +2230,6 @@
 		(uuid "e8f54e9f-b08e-4541-8580-8bd4b1ea7e5f")
 	)
 	(junction
-		(at 165.1 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f87a7caf-89f6-47a6-9f90-7b58dd1c6636")
-	)
-	(junction
 		(at 149.86 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2057,6 +2244,16 @@
 			(type default)
 		)
 		(uuid "02aa03ae-4b9b-4ad0-9c53-aca02856b11f")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036cb9fc-b989-4747-9eb8-a9901780a0f1")
 	)
 	(wire
 		(pts
@@ -2080,16 +2277,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 76.2) (xy 165.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c7913f-e5ce-42dc-85b4-69ef701eccbb")
-	)
-	(wire
-		(pts
 			(xy 160.02 76.2) (xy 165.1 76.2)
 		)
 		(stroke
@@ -2107,6 +2294,16 @@
 			(type default)
 		)
 		(uuid "3a7e1966-a7e1-4927-aa02-3bf2335bbae7")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ff4f4a-9ad7-473a-97f8-942e53e9ffb4")
 	)
 	(wire
 		(pts
@@ -2170,7 +2367,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 165.1 104.14)
+			(xy 165.1 76.2) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2c6a6b-8b62-49df-b91f-d75283b127e7")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 165.1 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2180,13 +2387,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 85.09) (xy 149.86 91.44)
+			(xy 175.26 58.42) (xy 175.26 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95ca5a65-c5cf-45c7-8fef-520575fe5cba")
+		(uuid "879e296d-3b7a-481f-87aa-18d721039f5e")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954e371a-d5e7-4dfc-872a-0d5a78f93f83")
 	)
 	(wire
 		(pts
@@ -2240,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 149.86 91.44)
+			(xy 149.86 85.09) (xy 149.86 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2257,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "c72e490c-3c08-48c0-a29b-9a903f5f0abe")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb69d938-f6cf-4de2-8a7c-00aaceaebb9b")
 	)
 	(wire
 		(pts
@@ -2300,13 +2527,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 165.1 96.52)
+			(xy 161.29 86.36) (xy 165.1 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e791ee71-398e-4b0d-bf82-8f41abc5fb3f")
+		(uuid "e610e275-5dde-453d-83e9-4ca726ad0dc3")
+	)
+	(wire
+		(pts
+			(xy 175.26 49.53) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d0b042-cee3-4997-ae93-e4069c723a2d")
 	)
 	(wire
 		(pts
@@ -2360,6 +2597,485 @@
 			(justify left)
 		)
 		(uuid "7e562afe-b282-488f-a11a-499b8aeb7656")
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMCJ13CA")
+		(at 157.48 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cb3e7a7-2aef-4fc1-8064-9e9532efb132")
+		(property "Reference" "D"
+			(at 157.48 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMCJ13CA"
+			(at 157.48 92.71 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMC"
+			(at 157.48 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501071555_hongjiacheng-SMCJ13CA_C41411763.pdf"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "13V 21.5V 69.8A 1uA 1.5kW 15.9V Bidirectional TVS Dual channel -55°C~+150°C SMC ESD and Surge Protection (TVS/ESD)"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41411763"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "4921"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.092USD"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "2"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Circuit Protection,ESD And Surge Protection (TVS/ESD)"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMCJ13CA"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "TVS"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Power Dissipation (Ppp)" "1.5kW"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number of Channels" "Dual channel"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Clamping Voltage" "21.5V"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Polarity" "Bidirectional"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak Pulse Current (Ipp)" "69.8A"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Breakdown" "15.9V"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Stand-Off Voltage (Vrwm)" "13V"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1uA"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e76cd670-0908-4b10-a3cc-299b3ede733c")
+		)
+		(pin "2"
+			(uuid "c66e0b62-1e37-4999-9e2c-dbbd446349bd")
+		)
+		(instances
+			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMBJ18CA")
+		(at 175.26 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5381353e-9d1f-41fb-b8bf-77f35aa9f05b")
+		(property "Reference" "D"
+			(at 179.07 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ18CA"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMB"
+			(at 173.482 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_hongjiacheng-SMBJ18CA_C19077574.pdf"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20.55A 600W 29.2V 22.1V Bidirectional 18V SMB ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077574"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2213"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.048USD"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "2"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMBJ18CA"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "533bb81c-163b-4ec8-a269-d4f2086cc2c0")
+		)
+		(pin "1"
+			(uuid "29d22140-a9dc-48a9-b701-261cc1705b11")
+		)
+		(instances
+			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,470pF")
@@ -2543,19 +3259,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ef2bdc0-ccb8-4b62-98a3-a5087ba8ddb2")
+			(uuid "a7d7c18c-c2de-441f-812a-0c0b77566630")
 		)
 		(pin "2"
-			(uuid "4767091f-6062-4268-88e5-983125c82c3d")
+			(uuid "0e77ab0a-3fdd-4f62-b1ec-57c0777c4c47")
 		)
 		(instances
 			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "C37")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "C33")
 					(unit 1)
 				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "C34")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "C33")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2770,19 +3526,59 @@
 			)
 		)
 		(pin "2"
-			(uuid "9806bb5b-cde6-4f4c-932e-b990756e2f59")
+			(uuid "689347ac-5cd7-43fd-a673-89abaacc8a9a")
 		)
 		(pin "1"
-			(uuid "78ab6825-c745-4040-80ab-f067ccb70526")
+			(uuid "085b97f1-9243-4beb-8d79-6e4c755ff94c")
 		)
 		(instances
 			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R47")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R21")
 					(unit 1)
 				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R35")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R21")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2896,40 +3692,80 @@
 			)
 		)
 		(pin "3"
-			(uuid "b683e6a4-468d-4c30-9a65-abf6daa64f22")
+			(uuid "5e1ac7f7-5686-4d0f-81f3-89151d6d7b51")
 		)
 		(pin "9"
-			(uuid "586bb659-3315-4bd2-b323-66de5c029883")
+			(uuid "2f2e9a5f-f173-4075-94ac-b289352b7884")
 		)
 		(pin "8"
-			(uuid "bb9b4c27-f2b9-4172-a77e-cda01d81ad36")
+			(uuid "9b10a613-12b2-4598-8372-72d52da04ae0")
 		)
 		(pin "5"
-			(uuid "a69dcf79-eb4c-4348-8f87-ad91366c3734")
+			(uuid "46fc1f53-5fcc-42bd-b219-ad9276cfbb3d")
 		)
 		(pin "6"
-			(uuid "dec29ad5-2af3-43c8-90e8-4e16147c98f7")
+			(uuid "b470fb92-cae2-48dd-846c-70acbb031ef2")
 		)
 		(pin "1"
-			(uuid "fb8efc82-4a95-40cf-bf25-4df7836e5085")
+			(uuid "215f6b0e-6f52-4bab-8ee6-017126dd8136")
 		)
 		(pin "2"
-			(uuid "734e60ee-5259-4d55-ba4b-1a72f992b176")
+			(uuid "0f536a15-7b87-4547-8f04-0d78dcf35000")
 		)
 		(pin "7"
-			(uuid "52710134-b7c1-45f9-84fd-8bbce5cf20ff")
+			(uuid "97594ee9-1148-4c54-bea9-893923d10568")
 		)
 		(pin "4"
-			(uuid "b196e31f-db9b-43f3-adb8-5618809edad0")
+			(uuid "271e82d4-6135-4d7a-8d01-00d60ad13dd5")
 		)
 		(instances
 			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "Q7")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "Q2")
 					(unit 1)
 				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "Q1")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "Q2")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2945,7 +3781,7 @@
 		(dnp no)
 		(uuid "b36599b9-2d2e-426e-8c11-8df7ea17c4a6")
 		(property "Reference" "R31"
-			(at 157.4799 80.01 0)
+			(at 157.4799 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,19 +3979,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "40f1e409-2f4a-4299-94c3-65463d812c03")
+			(uuid "327becb6-a4b0-4288-a280-93c89fd2c76f")
 		)
 		(pin "2"
-			(uuid "c4b0d080-b7bb-4b80-bc67-facefb9d822d")
+			(uuid "0b822657-185d-44ea-a0ae-99296e014195")
 		)
 		(instances
 			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R46")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R31")
 					(unit 1)
 				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R34")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R31")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3331,19 +4207,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9c62cd9-99a8-4c75-9bdf-75fc7af552f0")
+			(uuid "8c365085-385b-486a-9b46-06b0bd29b19d")
 		)
 		(pin "2"
-			(uuid "28e589e7-a155-40f5-8451-e619f332bf02")
+			(uuid "12ffa72b-b837-428d-b5f4-f3d4bb5e38a3")
 		)
 		(instances
 			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "D23")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "D5")
 					(unit 1)
 				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "D7")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "D5")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -3556,19 +4472,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "042f07a7-24db-4490-83ba-e484d1ece3cf")
+			(uuid "9b3be820-ae67-45e0-a6a3-c06e7208206b")
 		)
 		(pin "2"
-			(uuid "cab2f878-a3ab-4809-9442-a0d4fecc6285")
+			(uuid "68348c3e-e562-48e1-8030-506f0c7712b5")
 		)
 		(instances
 			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R44")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R33")
 					(unit 1)
 				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R29")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R33")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3781,214 +4737,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "da94f2e2-df96-4214-b9ec-a9235883ca71")
+			(uuid "fd38fb86-27bd-4c6f-a897-a3d9ab11b01a")
 		)
 		(pin "2"
-			(uuid "9faddb93-d8d9-4d44-8291-21ef5ccfe500")
+			(uuid "d8e81215-6594-4b0e-8c76-997190d958ad")
 		)
 		(instances
 			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R45")
+					(unit 1)
+				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R32")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/0ba11fae-2f1d-4b77-b99c-41ab2483d450"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/1f462a21-607f-43e8-b263-cab8b4bb2e4d"
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
 					(reference "R22")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diode-Packages:TVS-Bi, PSM712-LF-T7")
-		(at 157.48 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc76a67b-8453-45fd-b35a-fc0b948fe09c")
-		(property "Reference" "D6"
-			(at 151.892 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PSM712-LF-T7"
-			(at 150.114 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
-			(at 157.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf"
-			(at 155.194 96.393 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "19V 13.3V 12V SOT-23 ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C32677"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "82832"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.327USD"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Circuit Protection,TVS"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ProTek Devices"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "PSM712-LF-T7"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reverse Stand-Off Voltage (Vrwm)" "12V"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Maximum Clamping Voltage" "19V"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Breakdown Voltage" "13.3V"
-			(at 157.48 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3c55eb9c-377a-4976-b4e6-8ecf87b6052e")
-		)
-		(pin "2"
-			(uuid "14583a08-c13f-4cd1-8d8a-95ad84e0fbaa")
-		)
-		(pin "1"
-			(uuid "3ee18a5e-ab07-41db-844a-c41ed257b1bc")
-		)
-		(instances
-			(project ""
-				(path "/af956454-8f11-4118-89f4-dd7ed925536a/7a9ab13d-b018-4783-ad87-a5d2a213ed99/89a57391-4f8f-4442-8811-76b7ecce83de"
-					(reference "D7")
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/96cf2645-9094-4989-ae62-2dc6382100b1"
+					(reference "R53")
 					(unit 1)
 				)
-				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/89a57391-4f8f-4442-8811-76b7ecce83de"
-					(reference "D6")
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a/e23ac6b0-b609-49ba-bf9d-eb3b2446a8d3/d61fba50-7104-44f9-8e09-abef5c153d0a"
+					(reference "R37")
 					(unit 1)
 				)
 			)
