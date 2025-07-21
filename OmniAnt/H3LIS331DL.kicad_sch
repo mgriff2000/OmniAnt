@@ -493,7 +493,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "58347526"
+			(property "Stock" "64667839"
 				(at 0 0 0)
 				(effects
 					(font
@@ -749,7 +749,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "1551376"
+			(property "Stock" "1647341"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1555,7 +1555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03887829-50a0-4842-ab26-c751b18e1fd8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0405"
 			(at 128.27 88.9 0)
 			(effects
 				(font
@@ -1605,11 +1605,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "#PWR039")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "#PWR034")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -1625,7 +1625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a231ae-f34a-435e-8433-b5295d0eed66")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0402"
 			(at 82.55 95.25 0)
 			(effects
 				(font
@@ -1675,11 +1675,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "#PWR036")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "#PWR031")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -1694,7 +1694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4572ee01-109a-40a0-85f0-cc70f8bd0600")
-		(property "Reference" "AC1"
+		(property "Reference" "AC401"
 			(at 119.38 106.934 0)
 			(effects
 				(font
@@ -1862,11 +1862,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "AC2")
+					(reference "AC501")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "AC1")
+					(reference "AC401")
 					(unit 1)
 				)
 			)
@@ -1881,7 +1881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "621c3b41-2aaa-47af-ad6d-3394998f1885")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0401"
 			(at 82.55 78.74 0)
 			(effects
 				(font
@@ -1931,11 +1931,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "#PWR035")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "#PWR030")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -1951,7 +1951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "843e892a-6b1f-4d62-a681-bc6004acb186")
-		(property "Reference" "C28"
+		(property "Reference" "C402"
 			(at 134.62 53.3399 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1551376"
+		(property "Stock" "1647341"
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -2131,11 +2131,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "C30")
+					(reference "C502")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "C28")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -2151,7 +2151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3e6d195-8851-4854-86b9-7e5a9aea669b")
-		(property "Reference" "C27"
+		(property "Reference" "C401"
 			(at 125.73 53.3399 0)
 			(effects
 				(font
@@ -2205,7 +2205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "58347526"
+		(property "Stock" "64667839"
 			(at 123.19 55.88 0)
 			(effects
 				(font
@@ -2331,11 +2331,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "C29")
+					(reference "C501")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "C27")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -2351,7 +2351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea30aa3-5337-4674-b38c-cf447695e57e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0403"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -2401,11 +2401,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "#PWR037")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "#PWR032")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -2420,7 +2420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5996c3f-e6cd-4a40-8212-1fc635932c63")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0404"
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -2470,11 +2470,11 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/26834c6c-f4a8-48a9-9b9e-c769f479a855"
-					(reference "#PWR038")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a/715d742c-13c6-4f25-8121-09fc2df5f196"
-					(reference "#PWR033")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)

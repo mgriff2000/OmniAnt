@@ -453,7 +453,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -771,52 +771,52 @@
       "Accelerometer2"
     ],
     [
-      "89a57391-4f8f-4442-8811-76b7ecce83de",
-      "MOSFET"
+      "d9e222e7-bb20-40d8-b77b-4999e1c4e09a",
+      "QLA"
     ],
     [
       "0ba11fae-2f1d-4b77-b99c-41ab2483d450",
-      "MOSFET1"
+      "QHA"
     ],
     [
       "0ba11fae-2f1d-4b77-b99c-41ab2483d450",
-      "MOSFET1"
+      "QHA"
     ],
     [
       "1f462a21-607f-43e8-b263-cab8b4bb2e4d",
-      "MOSFET2"
+      "QLB"
     ],
     [
       "d61fba50-7104-44f9-8e09-abef5c153d0a",
-      "MOSFET3"
+      "QHB"
     ],
     [
       "1f462a21-607f-43e8-b263-cab8b4bb2e4d",
-      "MOSFET2"
+      "QLB"
     ],
     [
       "d61fba50-7104-44f9-8e09-abef5c153d0a",
-      "MOSFET3"
+      "QHB"
     ],
     [
       "9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4",
-      "MOSFET4"
+      "QLC"
     ],
     [
       "96cf2645-9094-4989-ae62-2dc6382100b1",
-      "MOSFET5"
+      "QHC"
     ],
     [
       "9ff0726f-02e5-492f-b6fc-81a1cc7e4ef4",
-      "MOSFET4"
+      "QLC"
     ],
     [
       "96cf2645-9094-4989-ae62-2dc6382100b1",
-      "MOSFET5"
+      "QHC"
     ],
     [
-      "89a57391-4f8f-4442-8811-76b7ecce83de",
-      "MOSFET"
+      "d9e222e7-bb20-40d8-b77b-4999e1c4e09a",
+      "QLA"
     ]
   ],
   "text_variables": {}
