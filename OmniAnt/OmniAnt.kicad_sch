@@ -6921,6 +6921,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 149.86) (xy 234.95 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47694126-8fae-40bf-b28e-c5c6d948e954")
+	)
+	(wire
+		(pts
 			(xy 135.89 157.48) (xy 140.97 157.48)
 		)
 		(stroke
@@ -7048,6 +7058,16 @@
 			(type default)
 		)
 		(uuid "675768fb-a0a2-4874-9ea3-cc8a48c2d13c")
+	)
+	(wire
+		(pts
+			(xy 222.25 152.4) (xy 222.25 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6763e656-dc9a-4285-8140-69d1bf8a0585")
 	)
 	(wire
 		(pts
@@ -7201,6 +7221,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 144.78) (xy 208.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82388f52-26a3-4a11-ad65-338b6f26cd88")
+	)
+	(wire
+		(pts
 			(xy 213.36 26.67) (xy 218.44 26.67)
 		)
 		(stroke
@@ -7288,16 +7318,6 @@
 			(type default)
 		)
 		(uuid "937d9325-2dde-4c84-bf82-4daca1ce27c4")
-	)
-	(wire
-		(pts
-			(xy 229.87 149.86) (xy 234.95 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "950a1880-0944-424c-963f-e4150dc171d9")
 	)
 	(wire
 		(pts
@@ -7408,16 +7428,6 @@
 			(type default)
 		)
 		(uuid "b16ec559-c703-41bf-98a1-cf772efb6294")
-	)
-	(wire
-		(pts
-			(xy 229.87 147.32) (xy 234.95 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b21473bb-3cd7-447b-a579-0d81323dff0d")
 	)
 	(wire
 		(pts
@@ -7651,6 +7661,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 149.86) (xy 208.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04a85ca-93c9-43b2-8774-4f69a7c3b567")
+	)
+	(wire
+		(pts
 			(xy 85.09 38.1) (xy 81.28 38.1)
 		)
 		(stroke
@@ -7741,6 +7761,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 152.4) (xy 222.25 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d36c47-a024-41d3-9536-6a04d6f55c77")
+	)
+	(wire
+		(pts
 			(xy 229.87 142.24) (xy 234.95 142.24)
 		)
 		(stroke
@@ -7811,6 +7841,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 147.32) (xy 234.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5a9aef-16bf-4b2e-9169-ee3dcea502f9")
+	)
+	(wire
+		(pts
 			(xy 49.53 142.24) (xy 53.34 142.24)
 		)
 		(stroke
@@ -7840,12 +7880,12 @@
 		(uuid "0c594e4d-05dd-4485-922e-adb3570339d9")
 	)
 	(label "I2C_SCL"
-		(at 229.87 147.32 180)
+		(at 208.28 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0ccb05f9-d882-440f-a4cd-72ccb54e1368")
 	)
@@ -8200,12 +8240,12 @@
 		(uuid "d07141ca-97a4-45b1-aea5-6c02c440b6a0")
 	)
 	(label "I2C_SDA"
-		(at 229.87 149.86 180)
+		(at 208.28 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d5665a28-c4fc-4d72-812e-925f03b84e8c")
 	)
@@ -8556,7 +8596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ddf1c41-e79f-4d38-956e-90ba07a3da83")
-		(property "Reference" "J108"
+		(property "Reference" "J110"
 			(at 220.98 31.7499 0)
 			(effects
 				(font
@@ -8607,7 +8647,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J108")
+					(reference "J110")
 					(unit 1)
 				)
 			)
@@ -8623,7 +8663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106686ed-d8d0-4eaf-9db0-bccae14e2ba0")
-		(property "Reference" "J115"
+		(property "Reference" "J117"
 			(at 220.98 73.6599 0)
 			(effects
 				(font
@@ -8674,7 +8714,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J115")
+					(reference "J117")
 					(unit 1)
 				)
 			)
@@ -9384,7 +9424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a343eb2-ddb9-41be-b675-50a937fcf458")
-		(property "Reference" "J114"
+		(property "Reference" "J116"
 			(at 220.98 69.8499 0)
 			(effects
 				(font
@@ -9435,7 +9475,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J114")
+					(reference "J116")
 					(unit 1)
 				)
 			)
@@ -9501,6 +9541,74 @@
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 200.66 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "32c70e52-dafa-448d-977f-c1f03300afb5")
+		(property "Reference" "J104"
+			(at 199.644 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 202.438 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e9767a2-c500-46db-a234-378ea8f2b3cc")
+		)
+		(pin "1"
+			(uuid "17900b62-e606-4049-90a5-2facee600a52")
+		)
+		(instances
+			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -9581,7 +9689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4765fa-0cd5-473f-a82d-3e03f20a706a")
-		(property "Reference" "J113"
+		(property "Reference" "J115"
 			(at 220.98 63.4999 0)
 			(effects
 				(font
@@ -9632,7 +9740,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J113")
+					(reference "J115")
 					(unit 1)
 				)
 			)
@@ -11382,7 +11490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7090d2b9-e54a-40af-8727-de85fdc5f1de")
-		(property "Reference" "J107"
+		(property "Reference" "J109"
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -11565,7 +11673,7 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J107")
+					(reference "J109")
 					(unit 1)
 				)
 			)
@@ -11710,7 +11818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b0e4cc5-05aa-4aaf-ad80-64ddb21ce13b")
-		(property "Reference" "J110"
+		(property "Reference" "J112"
 			(at 220.98 45.7199 0)
 			(effects
 				(font
@@ -11761,7 +11869,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J110")
+					(reference "J112")
 					(unit 1)
 				)
 			)
@@ -11918,7 +12026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80209f1d-c896-4985-8835-9f8fa27d4836")
-		(property "Reference" "J117"
+		(property "Reference" "J119"
 			(at 237.49 25.3999 0)
 			(effects
 				(font
@@ -11969,7 +12077,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J117")
+					(reference "J119")
 					(unit 1)
 				)
 			)
@@ -12443,7 +12551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bbae535-f728-4622-89f8-b64f26c472df")
-		(property "Reference" "J104"
+		(property "Reference" "J106"
 			(at 204.47 19.05 0)
 			(effects
 				(font
@@ -12626,7 +12734,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J104")
+					(reference "J106")
 					(unit 1)
 				)
 			)
@@ -12642,7 +12750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dce0a4e-c332-44e5-ad61-12ed43918796")
-		(property "Reference" "J105"
+		(property "Reference" "J107"
 			(at 204.47 33.02 0)
 			(effects
 				(font
@@ -12825,7 +12933,7 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J105")
+					(reference "J107")
 					(unit 1)
 				)
 			)
@@ -13586,7 +13694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a97a7f98-c5d2-48ac-a095-6c634c911e16")
-		(property "Reference" "J116"
+		(property "Reference" "J118"
 			(at 237.49 20.3199 0)
 			(effects
 				(font
@@ -13637,7 +13745,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J116")
+					(reference "J118")
 					(unit 1)
 				)
 			)
@@ -13783,7 +13891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2db8e38-bdb7-406c-ad89-29a192dc7887")
-		(property "Reference" "J106"
+		(property "Reference" "J108"
 			(at 204.47 46.99 0)
 			(effects
 				(font
@@ -13966,7 +14074,7 @@
 		(instances
 			(project "OmniAnt"
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J106")
+					(reference "J108")
 					(unit 1)
 				)
 			)
@@ -14973,7 +15081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80ab303-c27f-44c4-af5e-c047f44a44fa")
-		(property "Reference" "J112"
+		(property "Reference" "J114"
 			(at 220.98 59.6899 0)
 			(effects
 				(font
@@ -15024,7 +15132,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J112")
+					(reference "J114")
 					(unit 1)
 				)
 			)
@@ -15559,7 +15667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3582607-106a-4fa9-aa8f-701e556511a0")
-		(property "Reference" "J109"
+		(property "Reference" "J111"
 			(at 220.98 35.5599 0)
 			(effects
 				(font
@@ -15610,7 +15718,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J109")
+					(reference "J111")
 					(unit 1)
 				)
 			)
@@ -16007,6 +16115,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 200.66 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f48224d6-be03-43c1-8350-f129bafc6df9")
+		(property "Reference" "J105"
+			(at 199.644 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 202.184 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4496f747-9ba2-48fc-8896-9ef0393b087c")
+		)
+		(pin "1"
+			(uuid "0439f838-42a2-415b-aff9-e447754c677f")
+		)
+		(instances
+			(project "OmniAnt"
+				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
+					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 218.44 50.8 0)
 		(unit 1)
@@ -16016,7 +16192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad22e37-2dce-4181-b121-83359947bef1")
-		(property "Reference" "J111"
+		(property "Reference" "J113"
 			(at 220.98 49.5299 0)
 			(effects
 				(font
@@ -16067,7 +16243,7 @@
 		(instances
 			(project ""
 				(path "/af956454-8f11-4118-89f4-dd7ed925536a"
-					(reference "J111")
+					(reference "J113")
 					(unit 1)
 				)
 			)
